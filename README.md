@@ -184,7 +184,7 @@ Troque a **arte de verdade** das telas do jogo com `darkeden_uiskin_editor.py`:
   </tr>
   <tr>
     <td><b>Reverse engineering e expansão</b></td>
-    <td><b>VictorRP7</b>, 2026</td>
+    <td><b>Victoria</b>, 2026</td>
   </tr>
   <tr>
     <td><b>Projeto base</b></td>
