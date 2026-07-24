@@ -30,12 +30,14 @@ the original Item.inf byte-for-byte on every table (1611 items, 91 classes).
 
 See README.md in this folder for the full field-by-field format writeup.
 """
+import os
+import sys
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 import struct
-import os
 from typing import List, BinaryIO
 
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'lib'))
 try:
     import darkeden_sprite  # optional: enables the live inventory-icon preview/editor (see darkeden_sprite.py)
 except ImportError:

@@ -109,7 +109,7 @@ import darkeden_truesprite as truesprite
 EFFECTSPRITETYPE_NULL = 0xFFFF
 ACTIONINFO_NULL = 0xFFFF
 
-SKILL_ICON_MAP_PATH = os.path.join(sys_path_dir, "skill_icons.json")
+SKILL_ICON_MAP_PATH = os.path.join(os.path.dirname(sys_path_dir), "data", "skill_icons.json")
 
 
 class ActionInfoNode:
